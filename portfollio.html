@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<title>Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Montserrat", sans-serif
+  }
+
+  .w3-row-padding img {
+    margin-bottom: 12px
+  }
+
+  .bgimg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://scontent.fpnq13-1.fna.fbcdn.net/v/t1.6435-9/161024057_2983766541860540_6042065996642378521_n.jpg?_nc_cat=103&ccb=1-6&_nc_sid=09cbfe&_nc_ohc=L742EUmJOI0AX_LZBVt&_nc_ht=scontent.fpnq13-1.fna&oh=00_AT9P8gBdvSmUUe_gsrWAOu_PPbwTdtevJnFJrwPUSkKx3Q&oe=62A23ABF');
+    min-height: 100%;
+  }
+</style>
+
+<body>
+
+  <!-- Sidebar with image -->
+  <nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+    <div class="bgimg"></div>
+  </nav>
+
+  <!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+  <nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2"
+    id="mySidebar">
+    <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright"
+      style="padding:0 12px;">
+      <i class="fa fa-remove"></i>
+    </a>
+    <div class="w3-bar-block w3-center">
+      <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+      <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
+      <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="w3-main w3-padding-large" style="margin-left:40%">
+
+    <!-- Menu icon to open sidebar -->
+    <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;"
+      onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+    <!-- Header -->
+    <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+      <h1 class="w3-jumbo"><b>Atul Singh</b></h1>
+      <p>Web Developer and Photography.</p>
+      <img src="file:///D:/document/atul%20resume%20new22-converted.pdf"
+        class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+      <img src="file:///D:/document/atul%20resume%20new22-converted.pdf"
+        class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+      <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+        <i class="fa fa-download"></i> Download Resume
+      </button>
+    </header>
+
+    <!-- Portfolio Section -->
+    <div class="w3-padding-32 w3-content" id="portfolio">
+      <h2 class="w3-text-grey">My Portfolio</h2>
+      <hr class="w3-opacity">
+
+      <!-- Grid for photos -->
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half">
+          <img
+            src="https://scontent.fpnq13-1.fna.fbcdn.net/v/t39.30808-6/271733643_3207143146189544_5312122420035229929_n.jpg?_nc_cat=111&ccb=1-6&_nc_sid=730e14&_nc_ohc=elVYAnv3oZ4AX9HAH7c&_nc_ht=scontent.fpnq13-1.fna&oh=00_AT8V5AhwXD38YksGz_2-gKBKiRvdaNNob2L-7CqvxxVWXQ&oe=62822DA8"
+            style="width:100%">
+          <img
+            src="https://scontent.fpnq13-1.fna.fbcdn.net/v/t1.6435-9/172183406_3003761409861053_6544711434253611032_n.jpg?_nc_cat=103&ccb=1-6&_nc_sid=730e14&_nc_ohc=QXstDi-jCRgAX-Yflf_&_nc_ht=scontent.fpnq13-1.fna&oh=00_AT-2A2ccOnHMnAmH9gRtAaJ8JBnpHOfjGX09dQ3sZHUbig&oe=62A27326"
+            style="width:100%">
+          <img
+            src="https://scontent.fpnq13-2.fna.fbcdn.net/v/t1.6435-9/124443967_2891171721120023_2862329122056938409_n.jpg?_nc_cat=101&ccb=1-6&_nc_sid=174925&_nc_ohc=S7UJf8B80akAX-vVMt0&_nc_ht=scontent.fpnq13-2.fna&oh=00_AT_DiaPEjF_g0R0NNlEbe8BMCTuFFjS2hOw9h0r0Y_xE7Q&oe=62A28D45"
+            style="width:100%">
+        </div>
+
+        <div class="w3-half">
+          <img
+            src="https://user-images.githubusercontent.com/102878103/165992444-18ccab7f-c3fe-4d0b-ad59-b92bb8b41a07.png"
+            style="width:100%;height: 300px;">
+          <img
+            src="https://user-images.githubusercontent.com/102878103/164882584-08347d76-7da4-49e0-a0de-ce84e7f8a627.png"
+            style="width:100%;height: 300px;">
+          <img
+            src="https://user-images.githubusercontent.com/102878103/165592315-c3f837a9-0782-4950-851c-c9aa2cf1be03.png"
+            style="width:100%;height: 300px;">
+          <img
+            src="https://user-images.githubusercontent.com/102878103/162953139-0d513c4f-d808-4d0d-83d4-04f4151ae599.png"
+            style="width:100%;height: 300px;">
+        </div>
+        <!-- End photo grid -->
+      </div>
+      <!-- End Portfolio Section -->
+    </div>
+
+    <!-- About Section -->
+    <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+      <h2>About</h2>
+      <hr class="w3-opacity">
+      <p>My Self Atul Singh,I am from Bihar,I have Completed My Diploma In Mechanical Engineering in 2017. I Want to
+        Work an organization Where I could always Learn
+        new things And value to the organization in term of profit
+        with my sincere and work and confident
+      </p>
+      <h3 class="w3-padding-16">My Skills</h3>
+      <p class="w3-wide">Web Developer</p>
+      <div class="w3-light-grey">
+        <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:85%">85%</div>
+      </div>
+      <p class="w3-wide">Photography</p>
+      <div class="w3-light-grey">
+        <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:15%">15%</div>
+      </div><br>
+
+
+      <div class="w3-row w3-center w3-dark-grey w3-padding-16 w3-section">
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">14+</span><br>
+          Partners
+        </div>
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">40+</span><br>
+          Projects Done
+        </div>
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">89+</span><br>
+          Happy Clients
+        </div>
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">150+</span><br>
+          Meetings
+        </div>
+      </div>
+
+      <button class="w3-button w3-light-grey w3-padding-large w3-section">
+        <i class="fa fa-download"></i> Download Resume
+      </button>
+
+      <!-- Testimonials -->
+      <h3 class="w3-padding-24">My Reputation</h3>
+      <img
+        src="https://scontent.fpnq13-1.fna.fbcdn.net/v/t1.6435-9/68551398_3587448091353339_7210625687638507520_n.jpg?_nc_cat=106&ccb=1-6&_nc_sid=09cbfe&_nc_ohc=7Y1dlWg1iKgAX8zrjtH&tn=bzEi0ELiC9AotKM2&_nc_ht=scontent.fpnq13-1.fna&oh=00_AT9yHNR_IkqOeFB_CLGX0So8a8edOMBqq3Pl_UY6R86GcQ&oe=62A186EC"
+        alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+      <p><span class="w3-large w3-text-black w3-margin-right">Aashish Mehra.</span> Web Designer.</p>
+      <p>Atul Singh is just awesome. I am so happy to have met her!</p><br>
+
+      <img
+        src="https://scontent.fpnq13-1.fna.fbcdn.net/v/t39.30808-6/242939974_3097966783815886_3441456124187850472_n.jpg?_nc_cat=109&ccb=1-6&_nc_sid=09cbfe&_nc_ohc=zGXkp9EaoNsAX80c22o&_nc_ht=scontent.fpnq13-1.fna&oh=00_AT9hIDKehnrtwOtOHGbKJxKODciqwgqQY2iK2cWIlwRoiA&oe=628173BA"
+        alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+      <p><span class="w3-large w3-text-black w3-margin-right">Jalindar Dalvi</span> Plant Head in Danfoss.</p>
+      <p>Atul Singh saved us from a web disaster.</p><br>
+
+      <img
+        src="https://scontent.fpnq13-1.fna.fbcdn.net/v/t31.18172-8/478770_386551411431737_2142353591_o.jpg?_nc_cat=109&ccb=1-6&_nc_sid=09cbfe&_nc_ohc=v-D-BBBvqjMAX_YL-9L&_nc_ht=scontent.fpnq13-1.fna&oh=00_AT_CbduYSylGXeoeV3LWg_4h6T8VFUkMZqLAyu7L2O4Ymw&oe=62A26841"
+        alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+      <p><span class="w3-large w3-text-black w3-margin-right">Sandeep joglaker.</span> Dupty Manager in Danfoss.</p>
+      <p>No one is better than Atul Singh.</p><br>
+
+      <!-- Grid for pricing tables -->
+
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half w3-margin-bottom">
+
+        </div>
+
+        <div class="w3-half">
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <!-- Contact Section -->
+    <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+      <h2>Contact Me</h2>
+      <hr class="w3-opacity">
+
+      <div class="w3-section">
+        <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>PUNE,INDIA</p>
+        <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +917009564258</p>
+        <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email:atul800023@gmail.com</p>
+      </div>
+
+      <!-- Image of location/map -->
+      <img
+        src="https://i.ytimg.com/vi/oHpVlQ4sEq0/maxresdefault.jpg"
+        class="w3-image w3-greyscale" style="width:100%; height: 300px;margin:32px 0">
+
+      <p>Lets get in touch. Send me a message:</p>
+      <form action="/action_page.php" target="_blank">
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required name="Subject">
+        </p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message">
+        </p>
+        <p>
+          <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          </button>
+        </p>
+      </form>
+      <!-- End Contact Section -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+      <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+      <i class="fa fa-snapchat w3-hover-opacity"></i>
+      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+      <i class="fa fa-twitter w3-hover-opacity"></i>
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
+      <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"
+          class="w3-hover-text-green">w3.css</a></p>
+      <!-- End footer -->
+    </footer>
+
+    <!-- END PAGE CONTENT -->
+  </div>
+
+  <script>
+    // Open and close sidebar
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "60%";
+      document.getElementById("mySidebar").style.display = "block";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+  </script>
+
+</body>
+
+</html>
